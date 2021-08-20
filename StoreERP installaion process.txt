@@ -39,13 +39,26 @@ install Node and set environment path C:\Users\user\AppData\Roaming\npm
 5) Goto GitHub Link And Download Zip StoreERP-Project
     Unzip folder 
     Open cmd goto Project folder and run npm i --force
-    >Angular/StoreERP/POSERPTHEME>npm i --force
+    >Angular/StoreERP>npm i --force
 
     Goto
-        D:\Angular\StoreERP\POSERPTHEME\node_modules\@nebular
+        D:\Angular\StoreERP\node_modules\@nebular
         delete theme folder after deleted  you can paste given theme folder
    
     ------------------------------------------------------------------
 
     Completed All process then open cmd goto Project folder and run ng serve
-    >Angular/StoreERP/POSERPTHEME>ng serve
+    >Angular/StoreERP>ng serve
+
+
+    Goto path
+    D:\Angular\StoreERP\src\app\@theme\components\header
+    open header.component.ts file  and uncomment 
+    {
+      value: 'blue',
+      name: 'Blue',
+    },
+    {
+       value: 'golden',
+       name: 'Golden',
+    },
