@@ -1,0 +1,77 @@
+StoreERP installaion process
+
+1)  Download Node LTS version v14.17.3 64bit
+    OS Windows 10 pro
+
+https://nodejs.org/en/download/
+install Node and set environment path C:\Users\user\AppData\Roaming\npm
+
+2) Open-> Administrator: Cammand Prompt 
+    C:\Windows\system32>node -v
+        Node version: v14.17.3
+
+    C:\Windows\system32>npm -v
+        NPM version: v6.14.13
+3) Install angular CLI
+    C:\Windows\system32>npm install -g @angular/cli
+    auto open Power shell and install Paython27
+    set environment path: C:\Python27
+
+    After angular CLI installed set environment path : C:\Users\user\AppData\Roaming\npm\node_modules\@angular\cli\bin
+4)  C:\Windows\system32>ng --version
+
+     Angular CLI: 12.1.4
+     Node:14.17.3
+     Package Manager:npm 6.14.13
+     OS: win32 x64
+     
+    Angular:
+     
+     Package                     version
+     ---------------------------------------------
+     @angular-devkit/architect   0.1201.4(cli-only)
+     @angular-devkit/core        12.1.4 (cli-only)
+     @angular-devkit/schematics  12.1.4 (cli-only)
+     @angular-devkit/angular     12.1.4 (cli-only)
+
+   -----------------------------------------------------------------------------------------------
+
+5) Goto GitHub Link And Download Zip StoreERP-Project
+    Unzip folder 
+    Open cmd goto Project folder and run npm i --force
+    >Angular/StoreERP/POSERPTHEME>npm i --force
+
+    Open Folder  Goto
+        D:Angular\StoreERP\POSERPTHEME\src\app\@theme
+        remove style folder and theme.module.ts after deleted 
+        you can paste given style folder and theme.module.ts
+
+    Open Folder  Goto
+        D:\Angular\StoreERP\POSERPTHEME\node_modules\@nebular
+        remove theme folder after deleted  you can paste given theme folder
+   
+    ------------------------------------------------------------------
+
+    Completed All process then open cmd goto Project folder and run ng serve
+    >Angular/StoreERP/POSERPTHEME>ng serve
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
