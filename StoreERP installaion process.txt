@@ -41,37 +41,11 @@ install Node and set environment path C:\Users\user\AppData\Roaming\npm
     Open cmd goto Project folder and run npm i --force
     >Angular/StoreERP/POSERPTHEME>npm i --force
 
-    Open Folder  Goto
-        D:Angular\StoreERP\POSERPTHEME\src\app\@theme
-        remove style folder and theme.module.ts after deleted 
-        you can paste given style folder and theme.module.ts
-
-    Open Folder  Goto
+    Goto
         D:\Angular\StoreERP\POSERPTHEME\node_modules\@nebular
-        remove theme folder after deleted  you can paste given theme folder
+        delete theme folder after deleted  you can paste given theme folder
    
     ------------------------------------------------------------------
 
     Completed All process then open cmd goto Project folder and run ng serve
     >Angular/StoreERP/POSERPTHEME>ng serve
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-
-
