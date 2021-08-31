@@ -37,6 +37,7 @@ install Node and set environment path C:\Users\user\AppData\Roaming\npm
    -----------------------------------------------------------------------------------------------
 
 5) Goto GitHub Link And Download Zip StoreERP-Project
+ link: https://github.com/brajdhan/StoreERP
     Unzip folder 
     Open cmd goto Project folder and run npm i --force
     >Angular/StoreERP>npm i --force
